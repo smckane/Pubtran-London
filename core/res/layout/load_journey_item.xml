@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:paddingBottom="16dp"
+	android:paddingTop="17dp"
+	android:gravity="center_vertical"
+	android:orientation="horizontal"
+	android:focusable="false"
+	android:background="#10000000">
+
+	<LinearLayout
+		android:id="@+id/llLoading"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<ProgressBar
+			android:id="@+id/pbLoading"
+			android:layout_width="16dp"
+			android:layout_height="16dp"
+			android:layout_marginRight="6dp"
+			android:visibility="visible" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="@string/loadingJourney" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/llClickToLoad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/tvLoadJourney"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="Nacist dalsi spojeni" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/llError"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/tvLoadJourney"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:text="@string/loadMoreError" />
+
+	</LinearLayout>
+
+</LinearLayout>

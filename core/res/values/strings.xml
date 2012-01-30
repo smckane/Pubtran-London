@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="monday">Monday</string>
+	<string
+		name="tuesday">Tuesday</string>
+	<string
+		name="wednesday">Wednesday</string>
+	<string
+		name="thursday">Thursday</string>
+	<string
+		name="friday">Friday</string>
+	<string
+		name="saturday">Saturday</string>
+	<string
+		name="sunday">Sunday</string>
+	<string
+		name="addToFavourites">Add to favourites</string>
+	<string
+		name="about">About</string>
+	<string
+		name="androidMarketMissing">You need Android Market for this.</string>
+	<string
+		name="addToCalendar">Add to calendar</string>
+	<string
+		name="airlines">Airlines</string>
+	<string
+		name="appName">Pubtran</string>
+	<string
+		name="arriveAt">Arrive at</string>
+	<string
+		name="buses">Buses</string>
+	<string
+		name="calendarEventTitle">Journey %1$s > %2$s</string>
+	<string
+		name="closeInfo">OK</string>
+	<string
+		name="cancel">Cancel</string>
+	<string
+		name="chooseAsArrival">Choose as arrival</string>
+	<string
+		name="chooseAsDeparture">Choose as departure</string>
+	<string
+		name="date">Date</string>
+	<string
+		name="delay">%s min delay</string>
+	<string
+		name="departAt">Depart at</string>
+	<string
+		name="directNotFound">No direct journey found</string>
+	<string
+		name="directAndLowDeckNotFound">No direct and accessible journey found</string>
+	<string
+		name="downloadProgressInfo"> - %1$d%% out of %2$.1f MB finished</string>
+	<string
+		name="downloading">Downloading...</string>
+	<string
+		name="downloadMap">Download map</string>
+	<string
+		name="downloadMapDisabled">Please wait...</string>
+	<string
+		name="duration">duration %s</string>
+	<string
+		name="enableGps">Enable GPS</string>
+	<string
+		name="enableGpsSummary">Approximate location from network will be used when GPS is
+		disabled
+	</string>
+	<string
+		name="findingJourney">Finding journey...</string>
+	<string
+		name="findJourney">Find Journey</string>
+	<string
+		name="from">From</string>
+	<string
+		name="googleMap">Google Map</string>
+	<string
+		name="gpsLocationKnown">GPS location known</string>
+	<string
+		name="googleCalendarNotInstalled">Your phone doesn\'t seem to have Google Calendar application
+	</string>
+	<string
+		name="hours">h</string>
+	<string
+		name="installing">Installing...</string>
+	<string
+		name="inTime">On time</string>
+	<string
+		name="journeyDetails">Journey details</string>
+	<string
+		name="journeyDetailsTitle">Journey</string>
+	<string
+		name="journeyNotFound">Journey not found</string>
+	<string
+		name="languageChanged">Language change will take effect after application restart
+	</string>
+	<string
+		name="languagePreference">Language</string>
+	<string
+		name="leavesIn">in %s</string>
+	<string
+		name="loadingDelay">Loading delay info...</string>
+	<string
+		name="loadingDelayError">Error while loading delay</string>
+	<string
+		name="loadingIntermediate">Loading...</string>
+	<string
+		name="loadingIntermediateError">Error while loading intermediate stops</string>
+	<string
+		name="loadingJourney">Loading...</string>
+	<string
+		name="loadingJourneyIOException">There\'s a problem with internet connection or the server didn\'t
+		respond in time</string>
+	<string
+		name="loadingJourneyInputEmpty">Departure or arival stop is empty</string>
+	<string
+		name="loadingLocation">Loading location...</string>
+	<string
+		name="loadMoreError">Something went wrong. Click to retry.</string>
+	<string
+		name="loadNextJourney">Load next</string>
+	<string
+		name="loadPrevJourney">Load previous</string>
+	<string
+		name="locationAge">(%s min ago)</string>
+	<string
+		name="lowDeckNotFound">No accessible journey found</string>
+	<string
+		name="networkLocationKnown">Approximate location known</string>
+	<string
+		name="map">Map</string>
+	<string
+		name="mapError">There was some error during map download or map extraction.
+	</string>
+	<string
+		name="mapErrorTitle">Map download unsuccessful</string>
+	<string
+		name="mapInfo">Stop locations are approximite, some stops may be missing.
+	</string>
+	<string
+		name="mapHideZoom">Hide zoom controls</string>
+	<string
+		name="mapShowZoom">Show zoom controls</string>
+	<string
+		name="menuMyLocation">My location</string>
+	<string
+		name="mapXoutOfY">Map %1$d/%2$d</string>
+	<string
+		name="mapUnavailable">Sorry, map is available only on phones with Android 2.1 or newer.
+	</string>
+	<string
+		name="minutes">min</string>
+	<string
+		name="myLocation">(my location)</string>
+	<string
+		name="notificationTitle">Journey %1$s > %2$s</string>
+	<string
+		name="now">Now</string>
+	<string
+		name="ok">OK</string>
+	<string
+		name="onlyDirect">" Only direct journeys"</string>
+	<string
+		name="onlyLowDeck">" Only accessible journeys"</string>
+	<string
+		name="parseError">Error while parsing server response</string>
+	<string
+		name="platform">platform</string>
+	<string
+		name="prague">Prague</string>
+	<string
+		name="searchHistory">Search History</string>
+	<string
+		name="searchHistoryEmpty">Search history is empty</string>
+	<string
+		name="sendJourney">Send journey</string>
+	<string
+		name="sendByEmail">Send by e-mail</string>
+	<string
+		name="sendBySms">Send by SMS</string>
+	<string
+		name="settings">Settings</string>
+	<string
+		name="startingDownload">Starting download</string>
+	<string
+		name="spotOnMap">Spot on map</string>
+	<string
+		name="stopAmbiguous">The name of one of the entered stops is ambiguous
+	</string>
+	<string
+		name="stopDoesntExist">Stop doesn\'t exist</string>
+	<string
+		name="time">Time</string>
+	<string
+		name="timetable">Timetable:</string>
+	<string
+		name="to">To</string>
+	<string
+		name="today">Today</string>
+	<string
+		name="trains">Trains</string>
+	<string
+		name="trainsAndBuses">Trains and Buses</string>
+	<string
+		name="tomorrow">Tomorrow</string>
+	<string
+		name="when">When</string>
+	<string
+		name="xMinutesAgo">%d min ago</string>
+	<string
+		name="oneHourAgo">1 hour ago</string>
+	<string
+		name="xHoursAgo">%d hours ago</string>
+	<string
+		name="oneDayAgo">1 day ago</string>
+	<string
+		name="xDaysAgo">%d days ago</string>
+	<string
+		name="journeyNotificationCancelled">Notification cancelled</string>
+	<string
+		name="setNotification">Set Notification</string>
+	<string
+		name="whenShowNotification">When to show notification</string>
+	<string
+		name="xMinutesBeforeDeparture">%d minutes before departure</string>
+	<string
+		name="oneHourBeforeDeparture">1 hour before departure</string>
+	<string
+		name="xHoursBeforeDeparture">%d hours before departure</string>
+	<string
+		name="departsInXMins">Departs in %d mins</string>
+	<string
+		name="arrivesAt">Arrives at %s</string>
+	<string
+		name="departsAt">Departs at %s</string>
+	<string
+		name="cancelJourneyNotification">Cancel notification</string>
+</resources>

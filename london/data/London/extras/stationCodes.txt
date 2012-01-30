@@ -1,0 +1,407 @@
+Bakerloo
+Code Station Name
+  BST Baker Street
+  CHX Charing Cross
+  ERB Edgware Road (Bakerloo)
+  ELE Elephant and Castle
+  EMB Embankment
+  HSD Harlesden
+  HAW Harrow and Wealdstone
+2_5DD0ED0.doc
+Page 23 of 34 14/12/2010
+  KGN Kensal Green
+  KNT Kenton
+  KPK Kilburn Park
+  LAM Lambeth North
+  MDV Maida Vale
+  MYB Marylebone
+  NWM North Wembley
+  OXC Oxford Circus
+  PAD Paddington
+  PIC Piccadilly Circus
+  QPK Queen's Park
+  RPK Regent's Park
+  SKT South Kenton
+  SPK Stonebridge Park
+  WAR Warwick Avenue
+  WLO Waterloo
+  WEM Wembley Central
+  WJN Willesden Junction
+Central
+Code Station Name
+BNK Bank
+BDE Barkingside
+BNG Bethnal Green
+BDS Bond Street
+BHL Buckhurst Hill
+CYL Chancery Lane
+CHG Chigwell
+DEB Debden
+EBY Ealing Broadway
+EAC East Acton
+EPP Epping
+FLP Fairlop
+GHL Gants HillTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 24 of 34 14/12/2010
+GRH Grange Hill
+GFD Greenford
+HAI Hainault
+HLN Hanger Lane
+HOL Holborn
+HPK Holland Park
+LAN Lancaster Gate
+LEY Leyton
+LYS Leytonstone
+LST Liverpool Street
+LTN Loughton
+MAR Marble Arch
+MLE Mile End
+NEP Newbury Park
+NAC North Acton
+NHT Northolt
+NHG Notting Hill Gate
+OXC Oxford Circus
+PER Perivale
+QWY Queensway
+RED Redbridge
+ROD Roding Valley
+RUG Ruislip Gardens
+SBC Shepherd’s Bush
+SNB Snaresbrook
+SRP South Ruislip
+SWF South Woodford
+STP St Paul’s
+SFD Stratford
+THB Theydon Bois
+TCR Tottenham Court Road
+WAN Wanstead
+WAC West Acton
+WRP West Ruislip
+WCT White CityTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 25 of 34 14/12/2010
+WFD Woodford
+Circle – use Hammersmith and Circle
+District
+Code Name
+ACT Acton Town
+ALE Aldgate East
+BKG Barking
+BCT Barons Court
+BEC Becontree
+BLF Blackfriars
+BWR Bow Road
+BBB Bromley-by-Bow
+CST Cannon Street
+CHP Chiswick Park
+DGE Dagenham East
+DGH Dagenham Heathway
+EBY Ealing Broadway
+ECM Ealing Common
+ECT Earl’s Court
+EHM East Ham
+EPY East Putney
+ERD Edgware Road (H & C)
+EPK Elm Park
+EMB Embankment
+FBY Fulham Broadway
+GRD Gloucester Road
+GUN Gunnersbury
+HMD Hammersmith (District and Picc)
+HST High Street Kensington
+HCH HornchurchTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 26 of 34 14/12/2010
+District
+Code Name
+OLY Kensington (Olympia)
+KEW Kew Gardens
+MAN Mansion House
+MLE Mile End
+MON Monument
+OLY Olympia
+PGR Parsons Green
+PLW Plaistow
+PUT Putney Bridge
+RCP Ravenscourt Park
+RMD Richmond
+SSQ Sloane Square
+SKN South Kensington
+SFS Southfields
+SJP St. James's Park
+STB Stamford Brook
+STG Stepney Green
+TEM Temple
+THL Tower Hill
+TGR Turnham Green
+UPM Upminster
+UPB Upminster Bridge
+UPY Upney
+UPK Upton Park
+VIC Victoria
+WBT West Brompton
+WHM West Ham
+WKN West Kensington
+WMS Westminster
+WCL Whitechapel
+WDN Wimbledon
+WMP Wimbledon ParkTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 27 of 34 14/12/2010
+Hammersmith & City, Circle
+Code Name
+ALD Aldgate
+ALE Aldgate East
+BST Baker Street
+BAR Barbican
+BKG Barking
+BLF Blackfriars
+BWR Bow Road
+BBB Bromley-by-Bow
+CST Cannon Street
+EHM East Ham
+ERD Edgware Road (H & C)
+EMB Embankment
+ESQ Euston Square
+FAR Farringdon
+GRD Gloucester Road
+GPS Great Portland Street
+HMS Hammersmith
+HST High Street Kensington
+KXX King's Cross St Pancras
+LST Liverpool Street
+MAN Mansion House
+MLE Mile End
+MON Monument
+MGT Moorgate
+PAD Paddington
+PLW Plaistow
+SSQ Sloane Square
+SKN South Kensington
+SJP St. James's Park
+STG Stepney Green
+TEM TempleTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 28 of 34 14/12/2010
+Hammersmith & City, Circle
+Code Name
+THL Tower Hill
+UPK Upton Park
+VIC Victoria
+WHM West Ham
+WMS Westminster
+WCL Whitechapel
+Jubilee
+Code Name
+BST Baker Street
+BER Bermondsey
+BDS Bond Street
+CWR Canada Water
+CWF Canary Wharf
+CNT Canning Town
+CPK Canons Park
+DHL Dollis Hill
+FRD Finchley Road
+GPK Green Park
+KIL Kilburn
+KBY Kingsbury
+LON London Bridge
+NEA Neasden
+NGW North Greenwich
+QBY Queensbury
+SWK Southwark
+SJW St John’s Wood
+STA Stanmore
+SFD Stratford
+SWC Swiss Cottage
+WLO WaterlooTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 29 of 34 14/12/2010
+Jubilee
+Code Name
+WPK Wembley Park
+WHM West Ham
+WHD West Hampstead
+WMS Westminster
+WLG Willesden Green
+Metropolitan
+Code Station Name
+  ALD Aldgate
+  AME Amersham
+  BST Baker Street
+  BAR Barbican
+  CLF Chalfont and Latimer
+  CWD Chorleywood
+  CLW Colliers Wood
+  CRX Croxley
+  ETE Eastcote
+  ESQ Euston Square
+  FAR Farringdon
+  FRD Finchley Road
+  GPS Great Portland Street
+  HOH Harrow on the Hill
+  HDN Hillingdon
+  ICK Ickenham
+  KXX King's Cross St Pancras
+  LST Liverpool Street
+  MPK Moor Park
+  MGT Moorgate
+  NHR North Harrow
+  NWP Northwick Park
+  NWD NorthwoodTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 30 of 34 14/12/2010
+Metropolitan
+Code Station Name
+  NWH Northwood Hills
+  PIN Pinner
+  RLN Rayners Lane
+  RKY Rickmansworth
+  RUI Ruislip
+  RUM Ruislip Manor
+ UXB Uxbridge
+  WAT Watford
+  WPK Wembley Park
+  WHR West Harrow
+Northern
+Code Name
+ANG Angel
+ARC Archway
+BAL Balham
+BNK Bank
+BPK Belsize Park
+BOR Borough
+BTX Brent Cross
+BUR Burnt Oak
+CTN Camden Town
+CHF Chalk Farm
+CHX Charing Cross
+CPC Clapham Common
+CPN Clapham North
+CPS Clapham South
+COL Colindale
+CLW Colliers Wood
+EFY East Finchley
+EDG EdgwareTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 31 of 34 14/12/2010
+Northern
+Code Name
+ELE Elephant and Castle
+EMB Embankment
+EUS Euston
+FYC Finchley Central
+GGR Golders Green
+GST Goodge Street
+HMP Hampstead
+HND Hendon Central
+HBT High Barnet
+HIG Highgate
+KEN Kennington
+KTN Kentish Town
+KXX King's Cross St Pancras
+LSQ Leicester Square
+LON London Bridge
+MHE Mill Hill East
+MGT Moorgate
+MOR Morden
+MCR Mornington Crescent
+OLD Old Street
+OVL Oval
+SWM South Wimbledon
+STK Stockwell
+TBE Tooting Bec
+TBY Tooting Broadway
+TCR Tottenham Court Road
+TOT Totteridge and Whetstone
+TPK Tufnell Park
+WST Warren Street
+WLO Waterloo
+WFY West Finchley
+WSP Woodside ParkTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 32 of 34 14/12/2010
+Piccadilly
+Code Name
+ACT Acton Town
+ALP Alperton
+AGR Arnos Grove
+ARL Arsenal
+BCT Barons Court
+BOS Boston Manor
+BGR Bounds Green
+CRD Caledonian Road
+CFS Cockfosters
+COV Covent Garden
+ECM Ealing Common
+ECT Earl’s Court
+ETE Eastcote
+FPK Finsbury Park
+GRD Gloucester Road
+GPK Green Park
+HMD Hammersmith (District and Picc)
+HTX Hatton Cross
+HTF Heathrow Terminal 4
+HRV Heathrow Terminal 5
+HRC Heathrow Terminals 123
+HDN Hillingdon
+HOL Holborn
+HRD Holloway Road
+HNC Hounslow Central
+HNE Hounslow East
+HNW Hounslow West
+HPC Hyde Park Corner
+ICK Ickenham
+KXX King's Cross St PancrasTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 33 of 34 14/12/2010
+Piccadilly
+Code Name
+KNB Knightsbridge
+LSQ Leicester Square
+MNR Manor House
+NEL North Ealing
+NFD Northfields
+OAK Oakwood
+OST Osterley
+PRY Park Royal
+PIC Piccadilly Circus
+RLN Rayners Lane
+RUI Ruislip
+RUM Ruislip Manor
+RSQ Russell Square
+SEL South Ealing
+SHR South Harrow
+SKN South Kensington
+SGT Southgate
+SHL Sudbury Hill
+STN Sudbury Town
+TGR Turnham Green
+TPL Turnpike Lane
+UXB Uxbridge
+WGN Wood Green
+Victoria
+Code Name
+BHR Blackhorse Road
+BRX Brixton
+EUS Euston
+FPK Finsbury Park
+GPK Green ParkTrackernet Data Services Guide Beta 0
+2_5DD0ED0.doc
+Page 34 of 34 14/12/2010
+HBY Highbury and Islington
+KXX King's Cross St Pancras
+OXC Oxford Circus
+PIM Pimlico
+SVS Seven Sisters
+STK Stockwell
+TTH Tottenham Hale
+VUX Vauxhall
+VIC Victoria
+WAL Walthamstow Central
+WST Warren Street
+Waterloo & City
+Code Name
+BNK Bank
+WLO Waterloo

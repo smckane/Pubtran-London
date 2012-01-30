@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<CheckBoxPreference
+		android:title="@string/enableGps"
+		android:defaultValue="false"
+		android:summary="@string/enableGpsSummary"
+		android:key="enableGps" />
+
+	<ListPreference
+		android:title="@string/languagePreference"
+		android:entries="@array/languages"
+		android:entryValues="@array/languageCodes"
+		android:dialogTitle="@string/languagePreference"
+		android:key="language" />
+
+</PreferenceScreen>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="32dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingTop="2dp"
+		android:paddingBottom="2dp"
+		android:gravity="center_vertical"
+		android:background="@drawable/title_bar">
+
+		<TextView
+			android:id="@+id/tvTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#ffffff"
+			android:shadowColor="#bb000000"
+			android:shadowRadius="3"
+			android:textSize="15dp"
+			android:text="@string/journeyDetailsTitle" />
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+		<ScrollView
+			android:id="@+id/scollView"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:fadingEdge="none" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/title_bar_shadow" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="-4dp"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/bottom_shadow" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:id="@+id/llMenu"
+		android:layout_width="fill_parent"
+		android:layout_height="46dp"
+		android:background="@drawable/icon_bar_dark"
+		android:gravity="center_vertical" />
+
+</LinearLayout>

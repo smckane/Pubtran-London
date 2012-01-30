@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cz.fhejl.pubtran">
+
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/appName"
+		android:theme="@style/Theme.Pubtran">
+		<activity
+			android:name="cz.fhejl.pubtran.MainActivity">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action
+					android:name="cz.fhejl.pubtran.MAIN_ACTIVITY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="cz.fhejl.pubtran.ResultsActivity">
+			<intent-filter>
+				<action
+					android:name="cz.fhejl.pubtran.RESULTS_ACTIVITY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="cz.fhejl.pubtran.PreferencesActivity"
+			android:theme="@android:style/Theme.Light"
+			android:label="@string/settings" />
+		<activity
+			android:name="cz.fhejl.pubtran.JourneyActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.MapActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.FavouritesActivity" />
+		<receiver
+			android:name="cz.fhejl.pubtran.JourneyNotifsReceiver">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.BOOT_COMPLETED" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<service
+			android:name="cz.fhejl.pubtran.MapDownloaderService" />
+		<service
+			android:name="cz.fhejl.pubtran.JourneyNotifsService" />
+		<uses-library
+			android:name="com.google.android.maps" />
+	</application>
+
+	<uses-sdk
+		android:minSdkVersion="4"
+		android:targetSdkVersion="9" />
+
+	<uses-permission
+		android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission
+		android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission
+		android:name="android.permission.INTERNET" />
+	<uses-permission
+		android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<uses-feature
+		android:name="android.hardware.location.network"
+		android:required="false" />
+	<uses-feature
+		android:name="android.hardware.location.gps"
+		android:required="false" />
+	<uses-feature
+		android:name="android.hardware.touchscreen"
+		android:required="true" />
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="6dp"
+	android:paddingBottom="6dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:clickable="true"
+	android:orientation="vertical"
+	android:background="@android:drawable/list_selector_background">
+
+	<TextView
+		android:id="@+id/tvSearchTime"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingBottom="3dp"
+		android:textSize="14dp"
+		android:textColor="#808080"
+		android:text="před 11 min" />
+
+	<TextView
+		android:id="@+id/tvFrom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="15dp"
+		android:textStyle="bold"
+		android:text="Chaplinovo náměstí" />
+
+	<TextView
+		android:id="@+id/tvTo"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="15dp"
+		android:textStyle="bold"
+		android:text="Thákurova" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+### CORE ###
+
+OBLIBENE
+* Prelozit
+* Nastavit area
+* Feedback po pridani
+* Ikonka pridani
+
+MARKET BUGY
+* Delay TextView null
+* null Intent
+* taskId transient
+* concurrent
+* Otaceni displeje a mezizastavky
+
+BUGY
+* Nefunguje nekde SMS
+* OutOfMemoryError - rgb656, pouze jedna bezici mapactivity, spravne nastaveni velikosti cache
+* requestUpdate() po tom co se skryje download info
+* Popup spatne umistenej na QVGA
+* Pad na custom romkach pri zadavani zastavky
+* Pad Matej Smetana
+* Delsi nazvy zastavek
+* Aby razeni areas fungovalo i mimo CR
+* ProgressBar stops animating
+
+NOVE FUNKCE
+* Moje mista
+* Statistiky
+
+VYLEPSENI
+* Podpora pro Honeycomp
+* Reset data
+* Ulozeni vybrane mapy
+* Schovat zoom tlacitka v mape
+* Kdyz je ikonka mapy zasedla, zobrazit po kliknuti toast
+* Dalsi / predchozi spojeni v detailu
+* Moznost v detailu reroute z aktualni zastavky
+* Lepsi system zastavek
+* Vylepsit Sledovat spojeni
+* Mozna dat celou hlavni obr. do ScrollView
+* Lepsi nastaveni casu
+* Zobrazovat swap vzdy
+* Mapa - hezci bublina
+* Analytics
+* Lepsi ikonka prohozeni
+* Plan B pro pripad, kdy prestane fungovat parser (poslani infa do telefonu, vysledky v prohlizeci)
+* Odeslat podrobnosti pri parse chybe
+* Transakce v DB
+* Upozornit, kdyz uzivatel povoli GPS a je globalne zakazana
+* User Agent
+* Rucni nastaveni locale blbne - kdyz nastavim z en do cs a zpet, zustane cs dokud je app v pameti
+* Doresit male bugy v naseptavaci (hideSelector)
+* Vybrat po prvnim spusteni to spravne MHDcko
+
+WATCH JOURNEY
+* Seznam sledovanych spojeni
+* Zvukova/vibracni notifikace
+* Zruseni po prijezdu
+* Indikace ze je spojeni sledovane
+* Ulozit vyber "x min pred odjezdem"
+* Cas do prestupu a do prijezdu
+
+MAPA
+* Nevytvaret objekty
+* External / internal storage
+* Co kdyz nejde nacist bitmapa z pameti?
+* Hledani
+* Moje poloha
+* Menu po kliknuti na zastavku
+* Treseni pri zoomu
+
+OBECNE
+* Preklady
+* Updaty dat
+* Zmeny na strane provideru
+* Vsechny zmeny UI animovane
+* Unifikovat reseni stazeni dat a nasledneho updatu UI
+  * Timeout
+  * Otoceni displeje
+  * IOException
+  * Parse chyba
+  * User-Agent
+* Podpora landscape vsude
+* Podpora saveInstanceState vsude
+* Podpora QVGA
+* Zadny warningy
+* Ukoncvat vlakna

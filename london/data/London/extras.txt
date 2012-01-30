@@ -1,0 +1,259 @@
+Upminster Bridge;UPB:D
+Sudbury Town;STN:P
+Stepney Green;STG:DH
+West Ruislip;WRP:C
+Farringdon;FAR:cHM
+Bond Street;BDS:CJ
+South Ruislip;SRP:C
+Leyton;LEY:C
+Ickenham;ICK:MP
+Kennington Underground Station;KEN:N
+Moorgate;MGT:cHMN
+Croxley;CRX:M
+Debden;DEB:C
+Wood Green Underground Station;WGN:P
+Holland Park;HPK:C
+Southfields;SFS:D
+Heathrow Terminal 5;HRV:P
+Heathrow Terminal 4;HTF:P
+South Kensington;SKN:DcP
+Lancaster Gate;LAN:C
+Chancery Lane;CYL:C
+Highgate;HIG:N
+Chalfont & Latimer;CLF:M
+Putney Bridge;PUT:D
+West Finchley;WFY:N
+West Harrow;WHR:M
+Victoria;VIC:DcV
+Paddington;PAD:BcH
+Warren Street;WST:NV
+Warwick Avenue;WAR:B
+Hounslow East;HNE:P
+Stockwell;STK:NV
+North Harrow;NHR:M
+Rayners Lane;RLN:MP
+South Ealing;SEL:P
+Woodside Park;WSP:N
+North Acton;NAC:C
+West Ham;WHM:DHJ
+Whitechapel;WCL:DH
+Clapham Common;CPC:N
+East Finchley;EFY:N
+Cockfosters;CFS:P
+Moor Park;MPK:M
+Wembley Central;WEM:B
+Kensington (Olympia);OLY:D
+Upton Park;UPK:DH
+Hounslow Central;HNC:P
+Canons Park;CPK:J
+Barkingside;BDE:C
+Osterley;OST:P
+Turnpike Lane;TPL:P
+West Brompton;WBT:D
+Richmond;RMD:D
+Acton Town;ACT:DP
+Northolt;NHT:C
+Angel;ANG:N
+Grange Hill;GRH:C
+Ravenscourt Park;RCP:D
+Redbridge;RED:C
+Tottenham Hale;TTH:V
+Leicester Square;LSQ:NP
+Eastcote;ETE:MP
+Pimlico;PIM:V
+Parsons Green;PGR:D
+Harrow-on-the-Hill;HOH:M
+Stamford Brook;STB:D
+Blackfriars;BLF:Dc
+Hammersmith (Dist & Pic lines);HMD:DP
+Clapham South;CPS:N
+Hyde Park Corner;HPC:P
+Elm Park;EPK:D
+Edgware Road (Circle Line);ERD:DcH
+Mill Hill East;MHE:N
+Queen's Park;QPK:B
+Charing Cross;CHX:BN
+Queensbury;QBY:J
+Bromley-By-Bow;BBB:DH
+Totteridge & Whetstone;TOT:N
+Covent Garden;COV:P
+Kilburn Park;KPK:B
+Oxford Circus;OXC:BCV
+Kenton;KNT:B
+Fairlop;FLP:C
+Sloane Square;SSQ:Dc
+Gunnersbury;GUN:D
+East Putney;EPY:D
+Holloway Road;HRD:P
+Northwick Park;NWP:M
+Loughton;LTN:C
+Colindale;COL:N
+Balham;BAL:N
+Snaresbrook;SNB:C
+Walthamstow Central;WAL:V
+West Kensington;WKN:D
+Kensal Green;KGN:B
+Upney;UPY:D
+Mornington Crescent;MCR:N
+Mile End;MLE:CDH
+Finchley Road;FRD:JM
+Chorleywood;CWD:M
+Harlesden;HSD:B
+Notting Hill Gate;NHG:C
+North Ealing;NEL:P
+Archway;ARC:N
+South Wimbledon;SWM:N
+Woodford;WFD:C
+Finchley Central;FYC:N
+Oval;OVL:N
+Hanger Lane;HLN:C
+Wimbledon Park;WMP:D
+West Acton;WAC:C
+Chigwell;CHG:C
+Ruislip Gardens;RUG:C
+Barbican;BAR:cHM
+Goodge Street;GST:N
+Regent's Park;RPK:B
+Amersham;AME:M
+Kentish Town;KTN:N
+Liverpool Street;LST:CcHM
+Turnham Green;TGR:DP
+Heathrow Terminals 1-2-3 Underground Station;HRC:P
+Harrow & Wealdstone Underground Station;HAW:B
+Golders Green;GGR:N
+Rickmansworth;RKY:M
+Epping;EPP:C
+Stratford;SFD:CJ
+Sudbury Hill;SHL:P
+Tower Hill;THL:Dc
+Lambeth North;LAM:B
+Euston;EUS:NV
+Boston Manor;BOS:P
+Marylebone;MYB:B
+Embankment;EMB:BDcN
+St.John's Wood;SJW:J
+South Harrow;SHR:P
+Ruislip Manor;RUM:MP
+Leytonstone;LYS:C
+Ealing Broadway;EBY:CD
+Plaistow;PLW:DH
+Bermondsey;BER:J
+Green Park;GPK:JPV
+Dagenham East;DGE:D
+Northwood;NWD:M
+Temple;TEM:Dc
+Barons Court;BCT:DP
+Tooting Broadway;TBY:N
+Chiswick Park;CHP:D
+Aldgate;ALD:cM
+Arnos Grove;AGR:P
+Finsbury Park;FPK:PV
+Morden;MOR:N
+Oakwood;OAK:P
+Manor House;MNR:P
+Buckhurst Hill;BHL:C
+Queensway;QWY:C
+East Ham;EHM:DH
+Theydon Bois;THB:C
+North Wembley;NWM:B
+Stanmore;STA:J
+East Acton;EAC:C
+South Woodford;SWF:C
+Bounds Green;BGR:P
+St. James's Park Underground Station;SJP:Dc
+Hammersmith (H&C Line) Underground Station;HMS:H
+Piccadilly Circus;PIC:BP
+King's Cross St.Pancras;KXX:cHMNPV
+Maida Vale;MDV:B
+Wanstead;WAN:C
+Tufnell Park;TPK:N
+Elephant & Castle;ELE:BN
+Hillingdon;HDN:MP
+Seven Sisters;SVS:V
+Dollis Hill;DHL:J
+Canning Town;CNT:J
+Park Royal;PRY:P
+Highbury & Islington;HBY:V
+High Barnet;HBT:N
+Borough Underground Station;BOR:N
+Southgate;SGT:P
+Watford Underground Station;WAT:M
+Earl's Court;ECT:DP
+South Kenton;SKT:B
+Cannon Street;CST:Dc
+Swiss Cottage;SWC:J
+Caledonian Road;CRD:P
+Brixton;BRX:V
+Dagenham Heathway;DGH:D
+Canary Wharf;CWF:J
+Kilburn;KIL:J
+Kingsbury;KBY:J
+Great Portland Street;GPS:cHM
+Knightsbridge;KNB:P
+High Street Kensington;HST:Dc
+Wembley Park;WPK:JM
+Tottenham Court Road;TCR:CN
+Hainault;HAI:C
+Brent Cross Underground Station;BTX:N
+Southwark;SWK:J
+Hendon Central;HND:N
+Pinner;PIN:M
+Canada Water;CWR:J
+Stonebridge Park;SPK:B
+North Greenwich;NGW:J
+Arsenal;ARL:P
+Westminster;WMS:DcJ
+West Hampstead;WHD:J
+Holborn;HOL:CP
+Euston Square;ESQ:cHM
+Camden Town;CTN:N
+Newbury Park;NEP:C
+Hounslow West;HNW:P
+Willesden Junction;WJN:B
+Wimbledon;WDN:D
+Waterloo;WLO:BJNW
+Burnt Oak;BUR:N
+Mansion House;MAN:Dc
+Aldgate East;ALE:DH
+Hornchurch;HCH:D
+Hampstead Underground Station;HMP:N
+Gants Hill;GHL:C
+Belsize Park;BPK:N
+Roding Valley;ROD:C
+Clapham North;CPN:N
+Fulham Broadway;FBY:D
+Alperton;ALP:P
+Baker Street;BST:BcJM
+Ruislip;RUI:MP
+Perivale;PER:C
+Neasden;NEA:J
+Edgware;EDG:N
+Bank;BNK:CNW
+Chalk Farm;CHF:N
+Upminster;UPM:D
+Northwood Hills;NWH:M
+St Paul's;STP:C
+Bethnal Green;BNG:C
+London Bridge Underground Station;LON:JN
+Tooting Bec Underground Station;TBE:N
+Becontree;BEC:D
+Uxbridge;UXB:MP
+Bow Road;BWR:DH
+Monument;MON:Dc
+Willesden Green;WLG:J
+Ealing Common;ECM:DP
+Gloucester Road;GRD:DcP
+Northfields;NFD:P
+Edgware Road (Bakerloo Line);ERB:B
+Barking;BKG:DH
+Greenford;GFD:C
+Vauxhall;VUX:V
+Marble Arch;MAR:C
+White City;WCT:C
+Russell Square;RSQ:P
+Shepherd's Bush (Central Line);SBC:C
+Blackhorse Road;BHR:V
+Colliers Wood;CLW:MN
+Old Street;OLD:N
+Hatton Cross;HTX:P
+Kew Gardens;KEW:D

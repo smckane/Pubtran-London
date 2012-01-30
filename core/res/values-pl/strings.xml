@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="about">O programie</string>
+	<string
+		name="addToCalendar">Dodaj do kalendarza</string>
+	<string
+		name="airlines">Linie lotnicze</string>
+	<string
+		name="appName">Pubtran</string>
+	<string
+		name="buses">Autobusy</string>
+	<string
+		name="calendarEventTitle">Podróż %1$s > %2$s</string>
+	<string
+		name="closeInfo">OK</string>
+	<string
+		name="chooseAsArrival">Wybierz jako przyjazd</string>
+	<string
+		name="chooseAsDeparture">Wybierz jako odjazd</string>
+	<string
+		name="date">Data</string>
+	<string
+		name="delay">%s min opóźnienia</string>
+	<string
+		name="directNotFound">Nie znaleziono bezpośrednich połączeń</string>
+	<string
+		name="directAndLowDeckNotFound">Nie znaleziono bezpośrednich ani niskopodłogowych połączeń</string>
+	<string
+		name="duration">czas podróży %s</string>
+	<string
+		name="enableGps">Uruchom GPS</string>
+	<string
+		name="enableGpsSummary">W przypadku wyłączonego GPS zostanie użyta
+		przybliżona loklaizacja
+	</string>
+	<string
+		name="findingJourney">Szukam ...</string>
+	<string
+		name="findJourney">Znajdź połączenie</string>
+	<string
+		name="from">Z</string>
+	<string
+		name="gpsLocationKnown">Lokalizacja GPS poprawna</string>
+	<string
+		name="googleCalendarNotInstalled">Wygląda na to, że Twój telefon nie ma zainstalowanej aplikacji Kalendarz Google
+	</string>
+	<string
+		name="hours">h</string>
+	<string
+		name="inTime">Zgodnie z rozkładem</string>
+	<string
+		name="journeyDetails">Szczegóły podróży</string>
+	<string
+		name="journeyNotFound">Podróż nie znaleziona</string>
+	<string
+		name="languageChanged">Zmiana języka będzie aktywna po restarcie aplikacji
+	</string>
+	<string
+		name="languagePreference">Język</string>
+	<string
+		name="languagePreferenceSummary"></string>
+	<string
+		name="leavesIn">w ciągu %s</string>
+	<string
+		name="loadingDelay">Ładuję informacje o opóźnieniach...</string>
+	<string
+		name="loadingDelayError">Błąd ładowania informacji o opóźnieniach</string>
+	<string
+		name="loadingIntermediate">Ładuję...</string>
+	<string
+		name="loadingIntermediateError">Error while loading intermediate stops</string>
+	<string
+		name="loadingJourney">Ładuję podróż...</string>
+	<string
+		name="loadingJourneyIOException">Wystąpił problem w połączeniu z Internetem lub serwer nie odpowiedział
+		w odpowiednim czasie</string>
+	<string
+		name="loadingJourneyInputEmpty">Przystanek początkowy lub końcowy jest pusty</string>
+	<string
+		name="loadingLocation">Ładuję lokalizację..</string>
+	<string
+		name="loadNextJourney">Załaduj następny</string>
+	<string
+		name="loadPrevJourney">Załaduj poprzedni</string>
+	<string
+		name="locationAge">(%s min temu)</string>
+	<string
+		name="lowDeckNotFound">Nie znaleziono połączeń niskopodłogowych</string>
+	<string
+		name="networkLocationKnown">Przybliżona lokalizacja</string>
+	<string
+		name="map">Mapa</string>
+	<string
+		name="mapInfo">Lokalizacje przystanków są przybliżone, niektórych przystanków może brakować.
+	</string>
+	<string
+		name="menuMyLocation">Moja lokalizacja</string>
+	<string
+		name="minutes">min</string>
+	<string
+		name="myLocation">(moja lokalizacja)</string>
+	<string
+		name="notificationTitle">Podróż z %1$s > %2$s</string>
+	<string
+		name="now">Teraz</string>
+	<string
+		name="onlyDirect">" Tylko połączenia bezpośrednie"</string>
+	<string
+		name="onlyLowDeck">" Tylko połączenia niskopodłogowe"</string>
+	<string
+		name="parseError">Błąd przetwarzania odpowiedzi serwera</string>
+	<string
+		name="platform">platforma</string>
+	<string
+		name="prague">Praga</string>
+	<string
+		name="sendByEmail">Wyślij przez email</string>
+	<string
+		name="sendBySms">Wyślij przez SMS</string>
+	<string
+		name="settings">Ustawienia</string>
+	<string
+		name="spotOnMap">Punkt na mapie</string>
+	<string
+		name="stopAmbiguous">Nazwa jednego z wpisanych przystanków jest nie zrozumiała
+	</string>
+	<string
+		name="stopDoesntExist">Przystanek nie istnieje</string>
+	<string
+		name="time">Czas</string>
+	<string
+		name="timetable">Rozkład jazdy:</string>
+	<string
+		name="to">Do</string>
+	<string
+		name="today">Dziś</string>
+	<string
+		name="trains">Pociągi</string>
+	<string
+		name="trainsAndBuses">Pociągi i autobusy</string>
+	<string
+		name="tomorrow">Jutro</string>
+	<string
+		name="watchJourney">Podgląd podróży</string>
+	<string
+		name="watchJourneyCancel">Anuluj podgląd podróży</string>
+</resources>

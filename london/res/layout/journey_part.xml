@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingBottom="10dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/tvDivider"
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="#e0e0e0" />
+
+	<LinearLayout
+		android:id="@+id/llTransportModes"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="2dp"
+		android:paddingTop="10dp"
+		android:orientation="vertical" />
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:layout_marginTop="3dp"
+		android:layout_marginBottom="2dp"
+		android:background="#d0d0d0"
+		android:visibility="gone" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="12dp"
+		android:paddingRight="12dp"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/llFrom"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:layout_width="17dp"
+				android:layout_height="17dp"
+				android:layout_gravity="bottom"
+				android:src="@drawable/start_circle"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true" />
+
+			<TextView
+				android:id="@+id/tvJourneyFromStop"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:maxWidth="228dp"
+				android:singleLine="true"
+				android:textSize="16dp"
+				android:text="Trafalgar Avenue" />
+
+			<TextView
+				android:id="@+id/tvJourneyFromTime"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dp"
+				android:textSize="16dp"
+				android:textStyle="bold"
+				android:text="18:21" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/llTo"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:layout_width="17dp"
+				android:layout_height="17dp"
+				android:src="@drawable/end_circle"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true" />
+
+			<TextView
+				android:id="@+id/tvJourneyToStop"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxWidth="228dp"
+				android:singleLine="true"
+				android:textSize="16sp"
+				android:text="Tottenham Cemetery" />
+
+			<TextView
+				android:id="@+id/tvJourneyToTime"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dp"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:text="18:23" />
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/tvFrequency"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="18dp"
+			android:textSize="16dp"
+			android:textColor="#000088"
+			android:text="Buses every 3 - 7 mins"
+			android:visibility="gone" />
+
+		<TextView
+			android:id="@+id/tvDuration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="18dp"
+			android:textSize="16dp"
+			android:textColor="#888888"
+			android:text="Duration 15 min"
+			android:visibility="gone" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:layout_marginLeft="15dp">
+
+			<Button
+				android:id="@+id/btDisruption"
+				android:layout_width="wrap_content"
+				android:layout_height="32dp"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingTop="0dp"
+				android:paddingBottom="2dp"
+				android:gravity="left|center_vertical"
+				android:background="@drawable/btn_flat"
+				android:textSize="16sp"
+				android:textColor="#323232"
+				android:text="View disruptions"
+				android:visibility="gone" />
+
+			<Button
+				android:id="@+id/btDirections"
+				android:layout_width="wrap_content"
+				android:layout_height="32dp"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingTop="0dp"
+				android:paddingBottom="2dp"
+				android:gravity="left|center_vertical"
+				android:background="@drawable/btn_flat"
+				android:textSize="16sp"
+				android:textColor="#323232"
+				android:text="Walking directions"
+				android:visibility="gone" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

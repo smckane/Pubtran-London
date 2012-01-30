@@ -1,0 +1,17 @@
+<resources>
+
+	<string-array
+		name="languages">
+		<item>Default (same as phone language)</item>
+		<item>Čeština</item>
+		<item>Polski</item>
+	</string-array>
+
+	<string-array
+		name="languageCodes">
+		<item>""</item>
+		<item>"cs"</item>
+		<item>"pl"</item>
+	</string-array>
+
+</resources>

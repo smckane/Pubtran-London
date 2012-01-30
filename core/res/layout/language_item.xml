@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="64dp"
+	android:paddingLeft="12dp"
+	android:paddingRight="15dp"
+	android:gravity="center_vertical">
+
+	<TextView
+		android:id="@+id/tvLanguage"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textSize="18dp"
+		android:text="English" />
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="15dp"
+		android:src="@drawable/arrow_right"
+		android:scaleType="fitXY"
+		android:adjustViewBounds="true" />
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="32dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingTop="2dp"
+		android:paddingBottom="2dp"
+		android:gravity="center_vertical"
+		android:background="@drawable/title_bar">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textStyle="bold"
+			android:textColor="#ffffff"
+			android:shadowColor="#bb000000"
+			android:shadowRadius="3"
+			android:textSize="15dp"
+			android:text="@string/searchHistory" />
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:fadingEdge="none">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="15dp"
+					android:layout_marginBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:textStyle="bold"
+					android:textSize="17dp"
+					android:textColor="@color/themeColor"
+					android:text="Oblíbené" />
+
+				<View
+					android:layout_width="fill_parent"
+					android:layout_height="2dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/themeColor" />
+
+				<TextView
+					android:id="@+id/favouritesEmpty"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="7dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:textColor="#808080"
+					android:textSize="15dp"
+					android:text="Přidat spojení do oblíbených můžete ve výsledcích hledání, pomocí MENU > Přidat do oblíbených."
+					android:visibility="gone" />
+
+				<LinearLayout
+					android:id="@+id/llFavourites"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical" />
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:textStyle="bold"
+					android:textSize="17dp"
+					android:textColor="@color/themeColor"
+					android:text="Historie" />
+
+				<View
+					android:layout_width="fill_parent"
+					android:layout_height="2dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/themeColor" />
+
+				<LinearLayout
+					android:id="@+id/llHistory"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical" />
+
+				<TextView
+					android:id="@+id/historyEmpty"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="7dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:textColor="#808080"
+					android:textSize="15dp"
+					android:text="@string/searchHistoryEmpty"
+					android:visibility="gone" />
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/title_bar_shadow" />
+
+	</RelativeLayout>
+
+</LinearLayout>

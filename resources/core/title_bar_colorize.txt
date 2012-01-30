@@ -1,0 +1,2 @@
+Areas selector 100 36 -18
+Title bar 123 33 -32

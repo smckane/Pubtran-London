@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cz.fhejl.pubtran.london"
+	android:versionCode="51"
+	android:versionName="1.4"
+	android:installLocation="auto">
+
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/appName"
+		android:theme="@style/Theme.Pubtran">
+		<activity
+			android:name="cz.fhejl.pubtran.CustomMainActivity">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action
+					android:name="cz.fhejl.pubtran.london.MAIN_ACTIVITY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="cz.fhejl.pubtran.CustomJourneyActivity">
+			<intent-filter>
+				<action
+					android:name="cz.fhejl.pubtran.london.JOURNEY_ACTIVITY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="cz.fhejl.pubtran.CustomResultsActivity">
+			<intent-filter>
+				<action
+					android:name="cz.fhejl.pubtran.london.RESULTS_ACTIVITY" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="cz.fhejl.pubtran.PreferencesActivity"
+			android:theme="@android:style/Theme.Light"
+			android:label="@string/settings" />
+		<activity
+			android:name="cz.fhejl.pubtran.SearchOptionsActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.DisruptionsActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.MapActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.DeparturesActivity"
+			android:windowSoftInputMode="stateAlwaysVisible" />
+		<activity
+			android:name="cz.fhejl.pubtran.DepartureBoardsActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.FavouritesActivity" />
+		<activity
+			android:name="cz.fhejl.pubtran.TubeStatusActivity" />
+		<receiver
+			android:name="cz.fhejl.pubtran.JourneyNotifsReceiver">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.BOOT_COMPLETED" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<service
+			android:name="cz.fhejl.pubtran.MapDownloaderService" />
+		<service
+			android:name="cz.fhejl.pubtran.JourneyNotifsService" />
+		<uses-library
+			android:name="com.google.android.maps" />
+	</application>
+
+	<uses-sdk
+		android:minSdkVersion="4"
+		android:targetSdkVersion="9" />
+
+	<uses-permission
+		android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission
+		android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission
+		android:name="android.permission.INTERNET" />
+	<uses-permission
+		android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<uses-feature
+		android:name="android.hardware.location.network"
+		android:required="false" />
+	<uses-feature
+		android:name="android.hardware.location.gps"
+		android:required="false" />
+	<uses-feature
+		android:name="android.hardware.touchscreen"
+		android:required="true" />
+</manifest>

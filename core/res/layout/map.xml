@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="55dp"
+		android:paddingLeft="4dp"
+		android:paddingRight="4dp"
+		android:gravity="center_vertical"
+		android:background="@drawable/title_bar">
+
+		<Spinner
+			android:id="@+id/spWhichMap"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp" />
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:id="@+id/llMapContainer"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+
+		<LinearLayout
+			android:id="@+id/llZoom"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="2dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true">
+
+			<Button
+				android:id="@+id/btZoomOut"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/btn_zoom_out" />
+
+			<Button
+				android:id="@+id/btZoomIn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/btn_zoom_in" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/popup"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:background="@drawable/map_popup"
+			android:clickable="true"
+			android:visibility="invisible">
+
+			<TextView
+				android:id="@+id/tvStopName"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="2dp"
+				android:paddingRight="2dp"
+				android:paddingBottom="9dp"
+				android:paddingTop="5dp"
+				android:gravity="center"
+				android:textSize="17dp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:text="Chaplinovo náměstí" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<Button
+					android:id="@+id/btSetAsDeparture"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:drawable/btn_default_small"
+					android:textSize="16dp"
+					android:text="@string/chooseAsDeparture" />
+
+				<Button
+					android:id="@+id/btSetAsArrival"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:drawable/btn_default_small"
+					android:textSize="16dp"
+					android:text="@string/chooseAsArrival" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/llNoMap"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:background="#f0f0f0">
+
+			<Button
+				android:id="@+id/btDownloadMap"
+				android:layout_width="150dp"
+				android:layout_height="wrap_content"
+				android:text="@string/downloadMap" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/title_bar_shadow" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/bottom_shadow" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:id="@+id/llProgress"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bg_bottom_dark"
+		android:orientation="vertical"
+		android:visibility="gone">
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1px"
+			android:background="#bbbbbb" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingRight="5dp"
+			android:paddingBottom="7dp"
+			android:paddingTop="6dp"
+			android:gravity="center_vertical">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/tvProgressTitle"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:shadowColor="#ff000000"
+					android:shadowRadius="1"
+					android:textColor="#fff"
+					android:textStyle="bold"
+					android:textSize="15dp"
+					android:text="Stahuji..." />
+
+				<TextView
+					android:id="@+id/tvProgress"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="#ddd"
+					android:textSize="13dp"
+					android:text="Mapa 1/1,  hotovo 70% z 11.3 MB" />
+
+			</LinearLayout>
+
+			<Button
+				android:id="@+id/btCancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:background="@android:drawable/btn_default_small"
+				android:text="@string/cancel" />
+
+		</LinearLayout>
+
+		<ProgressBar
+			android:id="@+id/progressBar"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="3dp"
+			android:progress="70"
+			android:max="100" />
+
+	</LinearLayout>
+
+</LinearLayout>

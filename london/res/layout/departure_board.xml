@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingBottom="12dp"
+	android:paddingTop="12dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/tvTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:textSize="15dp"
+		android:text="Platform 3" />
+
+	<LinearLayout
+		android:id="@+id/llLines"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:paddingLeft="12dp"
+		android:paddingRight="12dp"
+		android:paddingTop="12dp"
+		android:paddingBottom="9dp"
+		android:orientation="vertical" />
+
+</LinearLayout>

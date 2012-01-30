@@ -1,0 +1,44 @@
+### LONDON ###
+
+BUGY
+* Bugy na Marketu
+* V emulatoru 2.1 se neobarvi oko
+* Nepamatuje si to zvolenou mapu
+* Pomaly nacteni ulozeneho hledani
+
+VYLEPSENI
+* Walking directions
+* Zastavka na mape
+
+* Podrobnejsi chybove hlasky (zastavka nenalezena, spatny postcode)
+* Vic zastavek u jedny etapy
+* Zobrazovat "or", kdyz je vice moznosti metra
+* Bus routes
+* Widget
+* Bug - dlouha zastavka
+* Doba chuze
+* Format casu / data podle locale
+* Pay before you board
+* Zones
+* Trochu vylepsit ikonky
+* North Countess Road (E17)
+* Bexley / Black Prince > Little Heath (RM6)
+* Flamstead / Friars Wash > St James Street
+* Ukladani postcodes
+* Ruzny stanoviste u busu
+* Coach icon
+* Razeni
+* Moznosti hledani
+* POIs
+* Last Service
+* Cycle
+* Routes
+
+* Unifikovany naseptavac pro vsechny mesta
+* Lokalni nazvy bus zastavek vs tfl
+* POI, adresy, post codes, moje poloha
+* Mapa se zastavkama
+* Spojeni na mape
+* National rail / traveline
+
+* Konkurence - Journey Pro, MyTFL, London GoTo, mbarclay.net, London Journey, Offi, London Underground, London Tube Status, Tube Chaser, Catch That Bus

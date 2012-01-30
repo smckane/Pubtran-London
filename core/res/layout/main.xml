@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="32dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="9dp"
+		android:paddingTop="2dp"
+		android:paddingBottom="2dp"
+		android:gravity="center_vertical"
+		android:background="@drawable/title_bar">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textStyle="bold"
+			android:textColor="#ffffff"
+			android:shadowColor="#bb000000"
+			android:shadowRadius="3"
+			android:textSize="15dp"
+			android:text="@string/appName" />
+
+		<LinearLayout
+			android:id="@+id/llAreaSwitcher"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:paddingRight="3dp"
+			android:paddingLeft="8dp"
+			android:paddingBottom="3dp"
+			android:background="@drawable/area_switcher"
+			android:gravity="bottom|center_horizontal"
+			android:focusable="true"
+			android:clickable="true">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingRight="5dp"
+				android:textColor="#ffffff"
+				android:textSize="15dp"
+				android:shadowColor="#bb000000"
+				android:shadowRadius="1"
+				android:text="@string/timetable" />
+
+			<TextView
+				android:id="@+id/tvArea"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ffffff"
+				android:textSize="15dp"
+				android:shadowColor="#bb000000"
+				android:textStyle="bold"
+				android:shadowRadius="2"
+				android:text="Praha" />
+
+			<ImageView
+				android:layout_width="14dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp"
+				android:layout_marginRight="2dp"
+				android:layout_marginBottom="2dp"
+				android:src="@drawable/arrow_white"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/title_bar_shadow" />
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:paddingTop="10dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp">
+
+		<TextView
+			style="@style/label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/from" />
+
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<cz.fhejl.pubtran.MyAutoComplete
+				android:id="@+id/acFrom"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:textColor="#000000"
+				android:inputType="text|textCapSentences"
+				android:imeOptions="actionNext"
+				android:textColorHint="#c0c0c0" />
+
+			<Button
+				android:id="@+id/btArrowFrom"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:background="@drawable/ic_show_dropdown"
+				android:focusable="false" />
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/homescreen_vert_space">
+
+			<TextView
+				style="@style/label"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_gravity="bottom"
+				android:text="@string/to" />
+
+			<ImageView
+				android:id="@+id/btSwap"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_marginBottom="3dp"
+				android:src="@drawable/swap"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:background="@drawable/simple_btn"
+				android:visibility="invisible" />
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text=" "
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<cz.fhejl.pubtran.MyAutoComplete
+				android:id="@+id/acTo"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:textColor="#000000"
+				android:inputType="text|textCapSentences"
+				android:imeOptions="actionSearch"
+				android:textColorHint="#c0c0c0" />
+
+			<Button
+				android:id="@+id/btArrowTo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:background="@drawable/ic_show_dropdown"
+				android:focusable="false" />
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:id="@+id/llSwitch"
+			android:layout_width="wrap_content"
+			android:layout_height="@dimen/homescreen_vert_space"
+			android:paddingBottom="2dp"
+			android:gravity="bottom"
+			android:clickable="true">
+
+			<TextView
+				android:id="@+id/tvSwitch"
+				style="@style/label"
+				android:layout_width="71dp"
+				android:layout_height="wrap_content"
+				android:text="@string/when" />
+
+			<ImageView
+				android:id="@+id/ivSwitch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="1dp"
+				android:src="@drawable/switch_left"
+				android:visibility="gone" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/btTime"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:minWidth="65dp"
+				android:gravity="center_vertical"
+				android:textSize="18dp"
+				android:background="@android:drawable/edit_text" />
+
+			<Button
+				android:id="@+id/btDate"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dp"
+				android:gravity="center_vertical"
+				android:textSize="18dp"
+				android:background="@android:drawable/edit_text" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/homescreen_vert_space"
+			android:layout_gravity="center_horizontal"
+			android:paddingBottom="2dp">
+
+			<ImageButton
+				android:id="@+id/btSearchOptions"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:src="@drawable/ic_search_options"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:visibility="visible" />
+
+			<LinearLayout
+				android:id="@+id/llFindJourney"
+				android:layout_width="188dp"
+				android:layout_height="48dp"
+				android:gravity="center"
+				android:background="@android:drawable/btn_default"
+				android:clickable="true"
+				android:focusable="true">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:text="@string/findJourney" />
+
+				<ImageView
+					android:id="@+id/ivDirect"
+					android:layout_width="18dp"
+					android:layout_height="17dp"
+					android:layout_marginLeft="6dp"
+					android:src="@drawable/direct"
+					android:scaleType="fitXY"
+					android:visibility="gone" />
+
+				<ImageView
+					android:id="@+id/ivLowDeck"
+					android:layout_width="18dp"
+					android:layout_height="17dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/low_deck"
+					android:scaleType="fitXY"
+					android:visibility="gone" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/llMenu"
+		android:layout_width="fill_parent"
+		android:layout_height="46dp"
+		android:background="@drawable/icon_bar"
+		android:gravity="center_vertical" />
+
+</LinearLayout>

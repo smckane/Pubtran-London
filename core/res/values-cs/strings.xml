@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="monday">Pondělí</string>
+	<string
+		name="tuesday">Úterý</string>
+	<string
+		name="wednesday">Středa</string>
+	<string
+		name="thursday">Čtvrtek</string>
+	<string
+		name="friday">Pátek</string>
+	<string
+		name="saturday">Sobota</string>
+	<string
+		name="sunday">Neděle</string>
+	<string
+		name="about">O aplikaci</string>
+	<string
+		name="addToCalendar">Přidat do kalendáře</string>
+	<string
+		name="addToFavourites">Přidat do oblíbenýc</string>
+	<string
+		name="airlines">Letadla</string>
+	<string
+		name="androidMarketMissing">K tomuto potřebujete aplikaci Android Market a vypadá to
+		že ji nemáte nainstalovanou.</string>
+	<string
+		name="appName">Pubtran</string>
+	<string
+		name="arriveAt">Příjezd</string>
+	<string
+		name="buses">Autobusy</string>
+	<string
+		name="calendarEventTitle">Spojení %1$s > %2$s</string>
+	<string
+		name="cancel">Zrušit</string>
+	<string
+		name="chooseAsArrival">Zvolit jako příjezd</string>
+	<string
+		name="chooseAsDeparture">Zvolit jako odjezd</string>
+	<string
+		name="closeInfo">Zavřít</string>
+	<string
+		name="date">Datum</string>
+	<string
+		name="delay">%s min zpoždění</string>
+	<string
+		name="departAt">Odjezd</string>
+	<string
+		name="directNotFound">Žádné přímé a bezbariérové spojení nenalezeno</string>
+	<string
+		name="directAndLowDeckNotFound">Žádné přímé spojení nenalezeno</string>
+	<string
+		name="downloadMap">Stáhnout mapu</string>
+	<string
+		name="downloadMapDisabled">Stáhnout mapu</string>
+	<string
+		name="downloading">Stahuji...</string>
+	<string
+		name="downloadProgressInfo">, hotovo %1$d%% z %2$.1f MB</string>
+	<string
+		name="enableGps">Používat GPS</string>
+	<string
+		name="enableGpsSummary">Při vypnuté GPS se použije přibližná poloha ze sítě
+	</string>
+	<string
+		name="findingJourney">Hledám spojení...</string>
+	<string
+		name="findJourney">Hledat spojení</string>
+	<string
+		name="from">Odkud</string>
+	<string
+		name="googleCalendarNotInstalled">Přidání do kalendáře se nepovedlo, nejspíš nemáte nainstalován
+		Google Kalendář</string>
+	<string
+		name="googleMap">Mapa Google</string>
+	<string
+		name="gpsLocationKnown">GPS poloha načtena
+	</string>
+	<string
+		name="hours">hod</string>
+	<string
+		name="installing">Instaluji...</string>
+	<string
+		name="inTime">Včas</string>
+	<string
+		name="journeyDetails">Detail spojení</string>
+	<string
+		name="journeyDetailsTitle">Detail spojení</string>
+	<string
+		name="journeyNotFound">Spojení nenalezeno</string>
+	<string
+		name="languageChanged">Nastavení jazyka se projeví po restartu aplikace</string>
+	<string
+		name="languagePreference">Jazyk</string>
+	<string
+		name="leavesIn">za %s</string>
+	<string
+		name="loadingDelay">Načítám zpoždění...</string>
+	<string
+		name="loadingDelayError">Chyba při zjišťování zpoždění</string>
+	<string
+		name="loadingIntermediate">Načítám mezizastávky...</string>
+	<string
+		name="loadingIntermediateError">Chyba při načítání mezizastávek</string>
+	<string
+		name="loadingJourney">Načítám...</string>
+	<string
+		name="loadingJourneyIOException">Je problém s připojením k
+		internetu nebo na serveru
+		IDOSu</string>
+	<string
+		name="loadingJourneyInputEmpty">Musíte vyplnit zastávky odkud a kam</string>
+	<string
+		name="loadingLocation">Načítám polohu...</string>
+	<string
+		name="loadMoreError">Chyba. Kliknutím zkusíte znovu.</string>
+	<string
+		name="loadNextJourney">Načíst další spojení</string>
+	<string
+		name="loadPrevJourney">Načíst předchozí spojení</string>
+	<string
+		name="locationAge">(před %s min)</string>
+	<string
+		name="lowDeckNotFound">Žádné bezbariérové spojení nenalezeno</string>
+	<string
+		name="networkLocationKnown">Přibližná poloha načtena</string>
+	<string
+		name="map">Mapa</string>
+	<string
+		name="mapInfo">Pozice zastávek jsou pouze přibližné, některé zastávky mohou na
+		mapě chybět.</string>
+	<string
+		name="mapXoutOfY">Mapa %1$d/%2$d</string>
+	<string
+		name="minutes">min</string>
+	<string
+		name="mapError">Při stahování nebo rozbalování mapy se stala nějaká chyba.
+	</string>
+	<string
+		name="mapErrorTitle">Stažení mapy se nepovedlo</string>
+	<string
+		name="mapHideZoom">Skrýt zoom</string>
+	<string
+		name="mapShowZoom">Zobrazit zoom</string>
+	<string
+		name="mapUnavailable">Mapa je dostupná jenom na telefonech s Androidem 2.1 a novějším.
+	</string>
+	<string
+		name="menuMyLocation">Moje poloha</string>
+	<string
+		name="myLocation">(moje poloha)</string>
+	<string
+		name="notificationTitle">Spojení od %1$s > %2$s</string>
+	<string
+		name="now">Teď</string>
+	<string
+		name="onlyDirect">" Pouze přímá spojení"</string>
+	<string
+		name="onlyLowDeck">" Pouze bezbariérová spojení"</string>
+	<string
+		name="parseError">Chyba při parsování spojení</string>
+	<string
+		name="platform">stanoviště</string>
+	<string
+		name="prague">Praha</string>
+	<string
+		name="xMinutesAgo">před %d min</string>
+	<string
+		name="xHoursAgo">před %d hod</string>
+	<string
+		name="oneHourAgo">před 1 hod</string>
+	<string
+		name="oneDayAgo">před 1 dnem</string>
+	<string
+		name="xDaysAgo">před %d dny</string>
+	<string
+		name="searchHistory">Historie hledání</string>
+	<string
+		name="searchHistoryEmpty">Historie hledání je prázdná</string>
+	<string
+		name="sendJourney">Odeslat spojení</string>
+	<string
+		name="sendByEmail">Odeslat e-mailem</string>
+	<string
+		name="sendBySms">Odeslat SMSkou</string>
+	<string
+		name="settings">Nastavení</string>
+	<string
+		name="spotOnMap">Místo na mapě</string>
+	<string
+		name="startingDownload">Zahajuji stahování...</string>
+	<string
+		name="stopAmbiguous">Zadání zastávky Odkud nebo Kam je nejednoznačné
+	</string>
+	<string
+		name="stopDoesntExist">Zastávka neexistuje</string>
+	<string
+		name="time">Čas</string>
+	<string
+		name="timetable">Jízdní řád:</string>
+	<string
+		name="trains">Vlaky</string>
+	<string
+		name="trainsAndBuses">Vlaky a autobusy</string>
+	<string
+		name="duration">celkem %s</string>
+	<string
+		name="to">Kam</string>
+	<string
+		name="today">Dnes</string>
+	<string
+		name="tomorrow">Zítra</string>
+	<string
+		name="when">Kdy</string>
+	<string
+		name="journeyNotificationCancelled">Upozornění zrušeno</string>
+	<string
+		name="setNotification">Nastavit upozornění</string>
+	<string
+		name="whenShowNotification">Kdy zobrazit upozornění</string>
+	<string
+		name="xMinutesBeforeDeparture">%d minut před odjezdem</string>
+	<string
+		name="oneHourBeforeDeparture">1 hodinu před odjezdem</string>
+	<string
+		name="xHoursBeforeDeparture">%d hodiny před odjezdem</string>
+	<string
+		name="departsInXMins">Odjezd za %d min</string>
+	<string
+		name="arrivesAt">Příjezd v %s</string>
+	<string
+		name="departsAt">Odjezd v %s</string>
+	<string
+		name="cancelJourneyNotification">Zrušit upozornění</string>
+</resources>

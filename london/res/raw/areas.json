@@ -1,0 +1,24 @@
+[
+	{
+		"name":"London",
+		"lon":0.0,
+		"class":"London1",
+		"maps":[
+			{
+				"name":"Rail Map",
+				"id":"rail"
+			},
+			{
+				"name":"Tourist Map",
+				"id":"tourist"
+			},
+			{
+				"name":"Tube Map",
+				"id":"tube"
+			}
+		],
+		"radius":0,
+		"lat":0.0,
+		"id":"london"
+	}
+]

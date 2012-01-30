@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="13dp"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:textSize="17dp"
+			android:textStyle="bold"
+			android:text="Pouze toto spojení" />
+
+		<SeekBar
+			android:id="@+id/seekBar"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:max="4" />
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="#555555" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="14dp">
+
+		<include
+			layout="@android:layout/select_dialog_item"
+			android:id="@+id/tvEmail"
+			android:paddingLeft="14dp" />
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="#e0e0e0" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="14dp">
+
+		<include
+			layout="@android:layout/select_dialog_item"
+			android:id="@+id/tvSms" />
+
+	</LinearLayout>
+
+
+</LinearLayout>
